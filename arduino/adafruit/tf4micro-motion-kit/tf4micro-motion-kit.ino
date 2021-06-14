@@ -133,7 +133,7 @@ const char* labelAirSnare[] = {
   "Side", "Down", "Up"
 };
 
-const char* labelFingerUserInterfae[] = {
+const char* labelFingerUserInterface[] = {
   "Left", "Right", "Poke", "Twirl", "Pluck"
 };
 
@@ -148,7 +148,7 @@ const char** detectModelLabel(int file_length) {
   }
 
   if ( (numClasses == 5) && ( (file_length / 1000) == 35 ) ) {
-    return labelFingerUserInterfae;
+    return labelFingerUserInterface;
   }
 
   return NULL;
